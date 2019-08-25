@@ -1,8 +1,9 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">News Page</router-link> |
-      <router-link to="/history">History</router-link>
+      <router-link to="/">Loan Register</router-link> |
+      <router-link to="/approve">Approve</router-link> |
+      <router-link to="/repayment">Repayment</router-link>
     </div>
     <router-view/>
   </div>
